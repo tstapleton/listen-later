@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# username and host to connect through SSH
+USER=username
+HOST=12.345.67.890
+
+# remote server files and directories
+REMOTE_BASE_DIR="/www/example.com/podcast"
+REMOTE_FILE_DIR="$REMOTE_BASE_DIR/files"
+REMOTE_PAGE_DIR="$REMOTE_BASE_DIR/pages"
+RSS_FILE="$REMOTE_BASE_DIR/rss.xml"
+
+# public url that podcast files are accessible at
+PUBLIC_URL="http://example.com/podcast"
+
+# local directory to store temporary files
+LOCAL_TEMP_DIR="tmp"
