@@ -14,4 +14,5 @@
 * try using other video hosting services besides youtube
 * way to confirm that everything was successful - check rss file, file exists, etc
 * html file is not being incremented sequentially
+* put original video URL in notes field for podcast in listen later
 
